@@ -1,0 +1,35 @@
+[
+  {
+    "fold": 8,
+    "model": "stump",
+    "validation_accuracy": 0.5062571103526735,
+    "leaf_count": 1,
+    "depth": 1,
+    "best_min_sample_size": 1,
+    "best_max_depth": 1,
+    "selection_validation_accuracy": null,
+    "test_accuracy": 0.5062461601474504
+  },
+  {
+    "fold": 8,
+    "model": "unpruned",
+    "validation_accuracy": 0.4709897610921502,
+    "leaf_count": 21526,
+    "depth": 15,
+    "best_min_sample_size": 1,
+    "best_max_depth": null,
+    "selection_validation_accuracy": null,
+    "test_accuracy": 0.48699569936514436
+  },
+  {
+    "fold": 8,
+    "model": "pre_pruned",
+    "validation_accuracy": 0.5535836177474402,
+    "leaf_count": 936,
+    "depth": 4,
+    "best_min_sample_size": 3,
+    "best_max_depth": 3,
+    "selection_validation_accuracy": 0.5479192986914188,
+    "test_accuracy": 0.537579356952693
+  }
+]
